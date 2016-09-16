@@ -20,3 +20,12 @@ function convertHTML(str) {
     console.log(newStr);
   	return newStr;
 }
+
+
+
+//**********************
+//Reverse the provided string.
+function reverseString(str) {
+	str = str.split("");
+  return str.reverse().join("");
+}
