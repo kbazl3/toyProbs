@@ -24,7 +24,7 @@ function convertHTML(str) {
 
 
 //**********************
-//Reverse the provided string.
+//Reverse the provided string
 function reverseString(str) {
 	str = str.split("");
   return str.reverse().join("");
